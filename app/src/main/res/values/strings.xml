@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">CalcBeta</string>
+
+    <string name="lightLB">Light Drinkers:</string>
+    <string name="medLB">Medium Drinkers:</string>
+    <string name="heavyLB">Heavy Drinkers:</string>
+
+    <string name="dialogButton">SET</string>
+
+    <string name="beer">Light Beer:</string>
+    <string name="wine">750ml Wine:</string>
+    <string name="liquor">1L Liquor:</string>
+    <string name="totalD">Total Drinks:</string>
+    <string name="numWheelSize">60dp</string>
+    <string name="dialogPad">2dp</string>
+    <string name="buttonPad">6dp</string>
+    <string name="numpickText">Set number</string>
+
+
+</resources>

@@ -1,0 +1,33 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#00e13b3b"
+    android:paddingTop="@string/dialogPad"
+    android:paddingLeft="@string/dialogPad"
+    android:paddingRight="@string/dialogPad"
+    android:paddingBottom="@string/dialogPad" >
+
+    <NumberPicker
+        android:id="@+id/dialogNumPick"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:background="#beffffff"
+        android:scrollIndicators="bottom|top" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:id="@+id/dialogSetButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/dialogButton"
+        android:typeface="monospace"
+        android:width="@dimen/abc_action_bar_default_padding_end_material"
+        android:padding="@dimen/abc_action_bar_default_padding_end_material"
+        android:layout_below="@+id/dialogNumPick"
+        android:layout_centerHorizontal="true" />
+
+
+
+</RelativeLayout>
